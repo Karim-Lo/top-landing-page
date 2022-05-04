@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1F2937;
+  color: white;
+  padding: 20px 160px 40px 160px;
+  font-size: 20px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.header-links {
+  display: flex;
+  gap: 16px;
+}
+
+.header a:visited {
+  color: white;
+}
+
+.header a:link {
+  text-decoration: none;
+}
+
+.header a:hover {
+  cursor: pointer;
+  color: #3882F6;
+}
